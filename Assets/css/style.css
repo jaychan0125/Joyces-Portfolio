@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+header {
+    padding: 15px;
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+    color: rgb(71, 101, 132);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+}
+
+h1 {
+    font-size: 250%;
+    color: rgb(44, 72, 123);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    font-weight: bolder;
+}
+
+nav ul li {
+    padding: 15px;
+    font-size: 20px;
+}
+
+figure {
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/jaimy-van-kessel-mNIKfeyj3U4-unsplash.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 37%;
+    border-radius: 0 0 20px 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    background-color: cadetblue;
+    margin: 8px 0;
+    border: solid 2px rgb(222, 184, 48);
+    padding: 30px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px rgb(208, 218, 19);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section h2 {
+    width: 22vw;
+    padding: 80px;
+    border-right: 1px solid black;
+    font-size: 190%;
+    background-color: coral;
+}
+
+section p {
+    padding: 30px;
+    background-color: darkslateblue;
+}
+
+.project-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+    list-style-type: none;
+    gap: 10px;
+}
+
+
+.boxes {
+    width: 150px;
+    height: 100px;
+    background-color: aqua;
+    color: blue;
+    text-align: center;
+}
