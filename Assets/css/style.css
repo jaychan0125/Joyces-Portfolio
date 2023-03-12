@@ -5,6 +5,9 @@
 
 }
 
+/* my CSS Reset sheet doesn't seem to be working, 
+so I've made the padding go away with this. 
+But i dont know why its not working?! */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -260,6 +263,9 @@ footer {
         text-align: center;
     }
 
+    /*I NEED HELP WITH MY H2 HEADERS 
+    BECAUSE I WANT THEM TO STRETCH THE LENGTH OF THE BOX 
+    AND I DONT KNOW HOW TO DO THAT ANYMORE  */
     section h2 {
         width: initial;
         padding: 5px;
