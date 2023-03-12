@@ -27,9 +27,8 @@ If your README is long, add a table of contents to make it easy for users to fin
 ## Deployment
 
 Link to my Portfolio: 
-************************
-**PUT DEPLOYED LINK HERE**
-************************
+
+**https://jaychan0125.github.io/Joyces-Portfolio/**
 
 ## Requirements
 
@@ -78,13 +77,13 @@ Colour change does not apply to text on project images where the images and the 
 
 Maqsood, A., Moatar, T., Krishna, &amp; Zhang, S. (2023). Advanced CSS Day 1-3. Lecture. 
 
-Photos from:
-Jaimy Van Kessel https://unsplash.com/photos/mNIKfeyj3U4
-Joshua J Cotten https://unsplash.com/photos/IWKIHuzl-tU
-Henry Dinardo https://unsplash.com/photos/lLNyzqcfcyc
-Chalo Garcia https://unsplash.com/photos/8YJ_R1yeMqE
-Thomas Dils https://unsplash.com/photos/_9zEZ7QBPiY
-Lukas Stoermer https://unsplash.com/photos/C0hX1cRQPOY
+Photos from:</br>
+Jaimy Van Kessel https://unsplash.com/photos/mNIKfeyj3U4 </br>
+Joshua J Cotten https://unsplash.com/photos/IWKIHuzl-tU </br>
+Henry Dinardo https://unsplash.com/photos/lLNyzqcfcyc </br>
+Chalo Garcia https://unsplash.com/photos/8YJ_R1yeMqE </br>
+Thomas Dils https://unsplash.com/photos/_9zEZ7QBPiY </br>
+Lukas Stoermer https://unsplash.com/photos/C0hX1cRQPOY 
 
 ## License
 
