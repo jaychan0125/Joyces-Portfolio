@@ -8,14 +8,14 @@
     <link rel="reset" href="./Assets/css/resets.css">
     <link rel="stylesheet" href="./Assets/css/style.css">
     <title>Portfolio</title>
-    <!-- <link rel="icon" href=" " ADD ICON TO TAB> -->
+    <link rel="icon" href="./Assets/images/raccoon-google-icon.png">
 </head>
 
 <body>
     <header>
-        <h1>🦝 Joyce Chan 🦝</h1>
+        <h1 class="my-name">Joyce Chan</h1>
         <nav>
-            <ul>
+            <ul class="nav-buttons">
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact-info">Contact Info</a></li>
@@ -29,18 +29,42 @@
     <main>
         <section id="about-me">
             <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, accusamus temporibus. Odit voluptas
-                quidem repellendus, perferendis, nobis fuga inventore officia iure harum commodi natus deleniti ad,
-                laborum veniam aperiam tenetur!</p>
+            <img class="my-pic" src="./Assets/images/me+owl.jpg" alt="Photo of Joyce with an owl.">
+            <p>Hello! </br>Welcome to my portfolio page! </br> I am currently a part time Coding Bootcamp Student and a
+                part-time barista! I'm sure you can also tell I am a raccoon enthusiast!</br>
+                Right now we are learning all sorts of things that are new to me! It is very exciting and I am expecting
+                to learn lots and be able to create many cool things in the future! </br>
+                Please join me on my journey and take a look at what I've done so far!
+            </p>
         </section>
         <section id="projects">
             <h2>Projects</h2>
-            <ul class="project-list">
-                <li class="boxes">Box1</li>
-                <li class="boxes">Box2</li>
-                <li class="boxes">Box3</li>
-                <li class="boxes">Box4</li>
-            </ul>
+            <section class="project-list">
+                <ul class="project-list">
+                    <li id=proj1 class="boxes">
+                        <a href="https://jaychan0125.github.io/prework-study-guide/" target="_blank">
+                            <img src="./Assets/images/joshua-j-cotten-IWKIHuzl-tU-unsplash.jpg"
+                                alt="Photo of raccoon by Joshua J Cotten, used as backdrop to my pre-work study guide!">
+                            <div class="proj-caption">Pre-Work Study Guide</div>
+                        </a>
+                    </li>
+                    <li id=proj2 class="boxes"><a href="https://jaychan0125.github.io/Horiseon/" target="_blank">
+                            <img src="./Assets/images/henry-dinardo-lLNyzqcfcyc-unsplash.jpg"
+                                alt="Photo of raccoon by Henry Dinardo, used as backdrop to Horiseon Challenge.">
+                            <div class="proj-caption">Horiseon Challenge</div>
+                        </a></li>
+                    <li id=proj3 class="boxes"><a href="" target="_blank">
+                            <img src="./Assets/images/chalo-garcia-8YJ_R1yeMqE-unsplash.jpg"
+                                alt="Photo of raccoon by Chalo Garcia, used as project backdrop. Project coming soon!">
+                            <div class="proj-caption">Project Coming Soon!</div>
+                        </a></li>
+                    <li id=proj4 class="boxes"><a href="" target="_blank">
+                        <img src="./Assets/images/thomas-dils-_9zEZ7QBPiY-unsplash.jpg" alt="Photo of raccoon by Thomas Dils, used as project backdrop. Project coming soon!">
+                        <div class="proj-caption">Project Coming Soon!</div>
+                    </a></li>
+                    
+                </ul>
+            </section>
         </section>
         <section id="contact-info">
             <h2>Contact Info</h2>
@@ -50,7 +74,8 @@
         </section>
         <section id="resume">
             <h2>Resume</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, accusamus temporibus. Odit voluptas
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, accusamus temporibus. Odit
+                voluptas
                 quidem repellendus, perferendis, nobis fuga inventore officia iure harum commodi natus deleniti ad,
                 laborum veniam aperiam tenetur!</p>
         </section>
