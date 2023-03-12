@@ -2,7 +2,6 @@
     --raccys: "🦝";
     --main-font-color: #0E2239;
     --active-shadow: 5px 5px 3px #F0C245;
-
 }
 
 /* my CSS Reset sheet doesn't seem to be working, 
@@ -109,6 +108,9 @@ section {
     margin: 8px 8px 12px 0;
     box-shadow: var(--active-shadow);
     display: flex;
+    /* if i don't use text-items: center;  
+    the h2 background stretches how I want, 
+    but how do I make it both */
     align-items: center;
     gap: 15px
 }

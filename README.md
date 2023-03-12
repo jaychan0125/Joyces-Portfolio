@@ -59,15 +59,20 @@ Here are the User Story and Acceptance Criteria provided:
 
 ![Joyce's Portfolio](./Assets/images/ *****ADD LINK TO SCREENSHOT OF MY PORTFOLIO*******)
 
-The Navigation Bar on the top right has navigation buttons that will link you further down the page to the associated sections. 
+The Navigation Bar on the top right has navigation buttons that will link you further down the page to the associated sections.
+
 
 There are multiple links on the page. From the Project's section, the images/text will open up a new tab to the associated webpage. (placeholders will open up my Joyce's Portfolio page again)
 
-There are also Contact Info links, where if you are on a mobile device, it will put the phone numebr in for you, the email link will start an email draft with the displayed email as the recipiant on the user's email application of choice, and the other links will open up to their coresponding pages on a new tab. 
+
+There are also Contact Info links, where if you are on a mobile device, it will put the phone number in for you, the email link will start an email draft with the displayed email as the recipient on the user's email application of choice, and the other links will open up to their corresponding pages on a new tab.
+
 
 When you hover over available links, Raccoons will appear to show you what you're looking at, and the colour of the text will change. Clicking on them will bring out an orange glow from under them
 
-Colour change does not apply to text on project images where the images and the text are both links to their corresponding webpages; however, if you select on them, they will instead tilt the oposite direction! 
+
+Colour change does not apply to text on project images where the images and the text are both links to their corresponding webpages; however, if you select on them, they will instead tilt the opposite direction!
+
 
 ## Citations
 
@@ -80,7 +85,6 @@ Henry Dinardo https://unsplash.com/photos/lLNyzqcfcyc
 Chalo Garcia https://unsplash.com/photos/8YJ_R1yeMqE
 Thomas Dils https://unsplash.com/photos/_9zEZ7QBPiY
 Lukas Stoermer https://unsplash.com/photos/C0hX1cRQPOY
-
 
 ## License
 
