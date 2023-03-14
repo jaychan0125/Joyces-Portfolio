@@ -56,7 +56,7 @@ Here are the User Story and Acceptance Criteria provided:
 
 ## Usage
 
-![Joyce's Portfolio](./Assets/images/ *****ADD LINK TO SCREENSHOT OF MY PORTFOLIO*******)
+![Joyce's Portfolio](./Assets/images/Portfolio-screenshot-web.png)
 
 The Navigation Bar on the top right has navigation buttons that will link you further down the page to the associated sections.
 
@@ -68,9 +68,14 @@ There are also Contact Info links, where if you are on a mobile device, it will 
 
 
 When you hover over available links, Raccoons will appear to show you what you're looking at, and the colour of the text will change. Clicking on them will bring out an orange glow from under them
+![hover and active](./Assets/images/Portfolio-hover-active.png)
 
 
 Colour change does not apply to text on project images where the images and the text are both links to their corresponding webpages; however, if you select on them, they will instead tilt the opposite direction!
+![project select](./Assets/images/Portfolio-activeProjImg.png)
+
+It has also been made to respond to screensize changes where if the screensize is less than 600px wide, the layout will change to a more stacked display. 
+![Mobile view](./Assets/images/Portfolio-screenshot-mobile.png)
 
 
 ## Citations
