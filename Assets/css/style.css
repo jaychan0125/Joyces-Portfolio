@@ -4,11 +4,6 @@
     --active-shadow: 5px 5px 3px #F0C245;
 }
 
-* {
-    box-sizing: border-box;
-    list-style-type: none;
-}
-
 body {
     line-height: 1.5;
     background-color: #fff7e0;
@@ -103,10 +98,6 @@ section {
     margin: 8px 8px 12px 0;
     box-shadow: var(--active-shadow);
     display: flex;
-    /* if i don't use align-items: center;  
-    the h2 background stretches how I want, 
-    but but all my content gets off center 
-    and the text still doesnt sit in the middle */
     align-items: center;
     gap: 15px
 }
@@ -146,7 +137,6 @@ section p {
     align-items: center;
     align-content: space-around;
     gap: 40px;
-
 }
 
 .boxes {
@@ -262,9 +252,6 @@ footer {
         text-align: center;
     }
 
-    /*I NEED HELP WITH MY H2 HEADERS 
-    BECAUSE I WANT THEM TO STRETCH THE LENGTH OF THE BOX 
-    AND I DONT KNOW HOW TO DO THAT ANYMORE  */
     section h2 {
         width: initial;
         padding: 5px;
