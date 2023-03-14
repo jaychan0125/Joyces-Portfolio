@@ -4,13 +4,8 @@
     --active-shadow: 5px 5px 3px #F0C245;
 }
 
-/* my CSS Reset sheet doesn't seem to be working, 
-so I've made the padding go away with this. 
-But i dont know why its not working?! */
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
     list-style-type: none;
 }
 
@@ -108,21 +103,23 @@ section {
     margin: 8px 8px 12px 0;
     box-shadow: var(--active-shadow);
     display: flex;
-    /* if i don't use text-items: center;  
+    /* if i don't use align-items: center;  
     the h2 background stretches how I want, 
-    but how do I make it both */
+    but but all my content gets off center 
+    and the text still doesnt sit in the middle */
     align-items: center;
     gap: 15px
 }
 
 section h2 {
     width: 200px;
-    text-align: center;
     padding: 80px 80px 80px 50px;
     border-right: 2px solid black;
     font-size: 190%;
     background-color: #9EC1A3;
     border-radius: 15px 0 0 15px;
+    display: flex;
+    align-self: stretch;
 }
 
 /* Section 1: ABOUT ME */
